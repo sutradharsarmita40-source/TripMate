@@ -82,37 +82,37 @@ A generic category of travellers who are unsure of where to go and, therefore, w
 
 ## 4. High-Level Features
 
-# 4.1 Basic Information About the Trip
+### 4.1 Basic Information About the Trip
 
 The basic information about the trip, namely the name, number of travellers, duration, and budget, is collected from the user.
 
-# 4.2 Region
+### 4.2 Region
 
 The user is given an option between three regions: India, International, and Anywhere.
 
-# 4.3 Trip Style
+### 4.3 Trip Style
 
 The user is given a selection of trip styles to choose from: Beach, Mountains, Nature and Wildlife, History and Culture, Adventure, City and Entertainment, Relaxation, and Spiritual.
 
-# 4.4 Weather
+### 4.4 Weather
 
 The user is given an option between five types of weather: Hot, Pleasant, Cold, Snowy, and Doesn't Matter.
 
 The selected weather is then compared to the general weather category of the destination to determine if it fits the user's requirements.
 
-# 4.5 Companion Type
+### 4.5 Companion Type
 
 The user is given an option between the following companion types: Solo, Friends, Family, and Partner.
 
 The companion type is factored into the recommendation engine.
 
-# 4.6 Budget-Based Matching
+### 4.6 Budget-Based Matching
 
 The system converts the inputted budget into a category: Low, Medium, High, or Luxury.
 
 It then compares the selected budget category to the budget category of the destination.
 
-# 4.7 Destination Scoring
+### 4.7 Destination Scoring
 
 The system has an internal scoring mechanism that determines how well a given destination matches the user's preferences.
 
@@ -132,7 +132,7 @@ The following attributes are compared:
 
 Destinations that match more attributes receive a higher score.
 
-# 4.8 Recommendations
+### 4.8 Recommendations
 
 The system then ranks the destinations based on their scores and displays the top three recommendations.
 
@@ -156,15 +156,14 @@ The following details are displayed for each of the top three recommendations:
 
 - Activities
 
-# 4.9 Justification of Recommendations
+### 4.9 Justification of Recommendations
 
 TripMate includes a justification feature that explains the reasoning behind the recommendations. It does so by listing the attributes that matched between the user's inputs and the destination.
 
-# 4.10 Personalized Summary of the Recommendations
+### 4.10 Personalized Summary of the Recommendations
 
 Finally, the system generates a summary of the user's preferences and the recommendations, including the name, number of travellers, duration, and budget, preferred region, style, and weather, and the top three recommendations.
 
----
 
 ## 5. Project Objective
 
