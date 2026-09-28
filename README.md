@@ -142,15 +142,26 @@ The final summary displays:
 
 ## Project Structure
 
-```text
 TripMate/
 │
 ├── main.py
-├── user_input.py
-├── destinations.py
-├── scoring.py
-├── recommendations.py
-├── display.py
 ├── README.md
 ├── statement.md
-└── .gitignore
+├── .gitignore
+│
+└── modules/
+    ├── __init__.py
+    ├── user_input.py
+    ├── destinations.py
+    ├── scoring.py
+    ├── recommendations.py
+    └── display.py
+
+### Module Description
+
+- `main.py` - Main entry point of the TripMate application.
+- `modules/user_input.py` - Collects user preferences and basic trip details.
+- `modules/destinations.py` - Contains the destination data used by TripMate.
+- `modules/scoring.py` - Calculates the match score for destinations.
+- `modules/recommendations.py` - Generates and ranks destination recommendations.
+- `modules/display.py` - Displays recommendations and the final trip summary.
