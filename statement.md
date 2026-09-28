@@ -56,27 +56,27 @@ TripMate is a recommendation system and, therefore, does not integrate with live
 
 TripMate is intended to be a simple recommendation engine for users who are not particularly tech-savvy but would like a recommendation as to where they could travel based on a set of attributes. The possible target users are as follows:
 
-## Students and Young Travellers
+### Students and Young Travellers
 
 Individual students and young travellers on a budget who require simple recommendations based on certain attributes.
 
-## Individual Travellers
+### Individual Travellers
 
 People who travel alone and require recommendations that factor in their preferred travel style, duration, budget, etc.
 
-## Friends Planning Group Trips
+### Friends Planning Group Trips
 
 A group of friends who wish to travel together and require recommendations that factor in their preferred travel style, duration, budget, etc.
 
-## Families
+### Families
 
 Families who wish to travel together and require recommendations that factor in their preferred travel style, duration, budget, etc.
 
-## Couples
+### Couples
 
 Couples who wish to travel together and require recommendations that factor in their preferred travel style, duration, and budget.
 
-## General Travellers
+### General Travellers
 
 A generic category of travellers who are unsure of where to go and, therefore, wish for a recommendation based on their inputs.
 
