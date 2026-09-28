@@ -1,4 +1,4 @@
-from user_input import (
+from modules.user_input import (
     get_basic_details,
     get_region,
     get_trip_style,
@@ -6,9 +6,9 @@ from user_input import (
     get_companion
 )
 
-from destinations import destinations
-from recommendations import get_recommendations
-from display import display_recommendations, display_summary
+from modules.destinations import destinations
+from modules.recommendations import get_recommendations
+from modules.display import display_recommendations, display_summary
 
 
 print("===================================")
@@ -16,14 +16,12 @@ print("           ✈️ TRIPMATE")
 print("   YOUR PERSONAL TRAVEL COMPANION")
 print("===================================")
 
+
 nm, tr, day, bd = get_basic_details()
 
 selected_region = get_region()
-
 selected_style = get_trip_style()
-
 selected_weather = get_weather()
-
 selected_companion = get_companion()
 
 
