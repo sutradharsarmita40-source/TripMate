@@ -82,10 +82,17 @@ The project is developed as a beginner-friendly Python application using fundame
 TripMate/
 │
 ├── main.py
-├── user_input.py
-├── destinations.py
-├── recommendations.py
-├── display.py
+│
+├── modules/
+│   ├── user_input.py
+│   ├── destinations.py
+│   ├── recommendations.py
+│   └── display.py
+│
+├── requirements.md/
+│   ├── functional_requirements.md
+│   └── non_functional_requirements.md
+│
 ├── README.md
 └── statement.md
 ```
