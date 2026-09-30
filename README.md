@@ -87,6 +87,7 @@ TripMate/
 │   ├── user_input.py
 │   ├── destinations.py
 │   ├── recommendations.py
+│   ├── scoring.py
 │   └── display.py
 │
 ├── requirements.md/
@@ -99,21 +100,18 @@ TripMate/
 
 ### Description of Modules
 
-**main.py**
-Controls the overall flow of the application and connects all modules.
+### Project Files
 
-**user_input.py**
-Contains functions that collect the user's travel preferences.
-
-**destinations.py**
-Contains the destination data used by TripMate.
-
-**recommendations.py**
-Processes the user's preferences and generates suitable destination recommendations.
-
-**display.py**
-Displays the recommendations and trip summary in a user-friendly format.
-
+- **main.py** – Controls the overall flow of the TripMate application.
+- **modules/user_input.py** – Collects the user's travel preferences.
+- **modules/destinations.py** – Contains the available destination data.
+- **modules/recommendations.py** – Generates destination recommendations based on user preferences.
+- **modules/scoring.py** – Calculates matching scores for destinations.
+- **modules/display.py** – Displays recommendations and the user's trip summary.
+- **requirements.md/** – Contains the functional and non-functional requirements.
+- **README.md** – Contains project documentation, setup, and testing instructions.
+- **statement.md** – Contains the problem statement, scope, target users, and high-level features.
+  
 ---
 
 ## 5. Installation and Setup
