@@ -12,7 +12,7 @@ from modules.display import display_recommendations, display_summary
 
 
 print("===================================")
-print("           ✈️ TRIPMATE")
+print("            TRIPMATE")
 print("   YOUR PERSONAL TRAVEL COMPANION")
 print("===================================")
 

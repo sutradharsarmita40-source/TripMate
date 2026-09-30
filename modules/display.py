@@ -11,7 +11,7 @@ def display_recommendations(recommendations, selected_region,
 
     print()
     print("===================================")
-    print("       ✈️ TRIPMATE RESULTS")
+    print("        TRIPMATE RESULTS")
     print("===================================")
 
     rank = 1
@@ -24,11 +24,11 @@ def display_recommendations(recommendations, selected_region,
         print()
 
         if rank == 1:
-            print("🥇", destination["name"])
+            print("1.",destination["name"])
         elif rank == 2:
-            print("🥈", destination["name"])
+            print("2.",destination["name"])
         else:
-            print("🥉", destination["name"])
+            print("3.",destination["name"])
 
         print("Match Score:", score, "/ 6")
         print("Trip Style:", destination["trip_style"])
@@ -74,7 +74,7 @@ def display_summary(nm, tr, day, bd, selected_region,
 
     print()
     print("===================================")
-    print("        🧳 YOUR TRIP SUMMARY")
+    print("         YOUR TRIP SUMMARY")
     print("===================================")
 
     print("Name:", nm)
@@ -88,10 +88,10 @@ def display_summary(nm, tr, day, bd, selected_region,
     print("Budget Level:", selected_budget)
 
     print()
-    print("⭐ Best Recommended Destination:", best_destination["name"])
+    print("Best Recommended Destination:", best_destination["name"])
     print("Match Score:", best_score, "/ 6")
 
     print("===================================")
     print("       THANK YOU FOR USING")
-    print("            ✈️ TRIPMATE")
+    print("             TRIPMATE")
     print("===================================")
